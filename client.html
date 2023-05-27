@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thumbnail</title>
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css"
+      type="text/css"
+    />
+    <style>
+      #thumbnail {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <input id="file" type="file" />
+      <button id="submit">Create a theumbnail</button>
+
+      <div id="error"></div>
+      <img id="thumbnail" />
+    </main>
+    <script src="./client.js"></script>
+  </body>
+</html>
